@@ -18,7 +18,6 @@
             <li><a href="hobbies.html">Hobbies</a></li>
           </ul>
       </div>
-</head>
 
 <header>
     <img src="images/me.jpg" alt="Profile image of me" class="profile-image">
@@ -41,18 +40,20 @@
 
     <div class="card">
     <h2>Education & Courses</h2>
-        <ul>
-            <li>Front End Web Development</li>
-            <ul>
-            <li>Introduction to HTML and CSS</li>
-            <li>HTML Basics</li>
-            <li>CSS Basics</li>
-        </ul>
+        <ul><!-- start of  main list-->
+            <li>Front End Web Development
+                <ul> <!-- start of nested list-->
+                    <li>Introduction to HTML and CSS</li>
+                    <li>HTML Basics</li>
+                    <li>CSS Basics</li>
+                </ul> <!--end of nested list-->
+            </li>
+        </ul><!--end of  main list -->
     </div>
 
 </main>
 
-<section class="flex">
+<div class="flex">
     <div class="card2">
         <ul class="skills">
             <li>HTML</li>
@@ -60,9 +61,7 @@
             <li>JavaScript</li> 
         </ul>
     </div>
-</section>
-
-</body>
+</div>
 
 <footer>
     <ul>        
@@ -72,6 +71,6 @@
       <p class="copyright">&copy;2022, Bjorn Jakobsen</p>
 </footer>
 
-
+</body>
 
 </html>
